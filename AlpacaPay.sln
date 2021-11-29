@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlpacaPay.Site", "src\AlpacaPay.Site\AlpacaPay.Site.csproj", "{4096A0BD-A714-4513-8604-6F6898172EB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlpacaPay.Business", "src\AlpacaPay.Business\AlpacaPay.Business.csproj", "{5EF74C3B-8303-4D92-AF44-0D789F04E0E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{75FDFD46-9A58-4D5B-BECD-C700A9CFF78F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Business", "1 - Business", "{D86B15E2-A5AF-4C7B-9F77-1C596B143001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{94D908E0-7ED9-4FFD-86BA-0537EFA42C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlpacaPay.Data", "src\AlpacaPay.Data\AlpacaPay.Data.csproj", "{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4096A0BD-A714-4513-8604-6F6898172EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4096A0BD-A714-4513-8604-6F6898172EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4096A0BD-A714-4513-8604-6F6898172EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4096A0BD-A714-4513-8604-6F6898172EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF74C3B-8303-4D92-AF44-0D789F04E0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF74C3B-8303-4D92-AF44-0D789F04E0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF74C3B-8303-4D92-AF44-0D789F04E0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF74C3B-8303-4D92-AF44-0D789F04E0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4096A0BD-A714-4513-8604-6F6898172EB1} = {75FDFD46-9A58-4D5B-BECD-C700A9CFF78F}
+		{5EF74C3B-8303-4D92-AF44-0D789F04E0E5} = {D86B15E2-A5AF-4C7B-9F77-1C596B143001}
+		{57FA5C90-FE68-41A6-8CCA-488DA9F5A1BD} = {94D908E0-7ED9-4FFD-86BA-0537EFA42C69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB2B236-8E3B-4AA7-8FCA-9DCF7629EDE3}
+	EndGlobalSection
+EndGlobal
